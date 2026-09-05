@@ -1,0 +1,7 @@
+{
+  "name": "logistics-realtime-notify",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node --experimental-strip-types src/logistics_notify.ts", "test": "node --experimental-strip-types src/logistics_notify.test.ts"},
+  "dependencies": {"zod": "^3.23.8"}
+}
